@@ -12,5 +12,7 @@ module BlogFlash
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     
+    # removed the bottom line to enable strong params
+    #config.action_controller.permit_all_parameters = true
   end
 end
